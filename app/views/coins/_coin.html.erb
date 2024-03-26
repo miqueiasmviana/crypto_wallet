@@ -11,7 +11,7 @@
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Url image:</strong>
-    <%= coin.url_image %>
+    <%= image_tag @coin.url_image, size: "25x25" %>
   </p>
 
   <% if action_name != "show" %>
