@@ -7,3 +7,25 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+puts "Cadastrando moedas..."
+
+Coin.create!(
+  description: "Bitcoin",
+  acronym: "BTC",
+  url_image: "https://images.ctfassets.net/ohcexbfyr6py/6ncFHBdtEFrtrXZrK6D0CG/8682659d1744caac1ed5d627fc58b779/btc_logo.png"
+)
+
+Coin.create!(
+  description: "Ethereum",
+  acronym: "ETH",
+  url_image: "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+)
+
+Coin.create!(
+  description: "Dash",
+  acronym: "DASH",
+  url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
+)
+
+puts "Moedas cadastradas com sucesso"
