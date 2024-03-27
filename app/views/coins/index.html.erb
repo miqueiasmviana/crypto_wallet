@@ -24,7 +24,7 @@
           <tr class="grid grid-cols-6 gap-3">
             <td><%= coin.description %></td>
             <td><%= coin.acronym %></td>
-            <td><%= image_tag coin.url_image, size: "25x25" %></td>
+            <td> <%= image_tag coin.url_image, size: "25x25" %> </td>
             <td><%= link_to t('links.show'), coin %></td>
             <td><%= link_to t('links.edit'), edit_coin_path(coin) %></td>
             <td><%= link_to t('links.delete'), coin, method: :delete, data: { confirm: t('messages.confirm') } %></td>
