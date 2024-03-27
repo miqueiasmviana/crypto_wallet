@@ -11,7 +11,7 @@
   <div id="mining_types" class="min-w-full">
     <table> 
       <thead>
-        <tr class="grid-cols-2 ">
+        <tr class="grid grid-cols-5 gap-3">
           <th><%= @mining_types.human_attribute_name(:description) %></th>
           <th><%= @mining_types.human_attribute_name(:acronym) %></th>
           <th colspan="3"></th>
@@ -20,7 +20,7 @@
 
       <tbody>
         <% @mining_types.each do |mining_type| %>
-          <tr>
+          <tr class="grid grid-cols-5 gap-3">
             <td><%= mining_type.name %></td>
             <td><%= mining_type.acronym %></td>
             <td><%= link_to t('links.show'), mining_type %></td>
