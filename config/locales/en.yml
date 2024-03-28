@@ -28,6 +28,7 @@
 #       enabled: "ON"
 
 en:
+  actual_locale: "English (International)"
   hello: "Hello world"
   links:
     show: "Show"
