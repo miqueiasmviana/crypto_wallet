@@ -34,6 +34,7 @@ en:
     menu: "To get started, select an option below:"
     editing_coin: "Editing coin"
     notice: "Coin was successfully updated."
+    select: "Select..."
   options:
     option_one: "Coins"
     option_two: "Mining Type"

@@ -26,9 +26,9 @@
     <%= form.text_field :url_image, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
   </div>
 
-  <div class="field">
+  <div class="field px-3 py-3">
     <%= form.label :mining_type_id %>
-    <%= form.select("mining_type_id", @mining_type_options, {include_blank: "selecione" }) %>
+    <%= form.select("mining_type_id", @mining_type_options, {include_blank: t("messages.select") }) %>
   </div>
 
   <div class="inline">

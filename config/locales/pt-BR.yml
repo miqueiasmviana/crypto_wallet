@@ -5,6 +5,7 @@ pt-BR:
     menu: "Para começar, selecione uma das opções abaixo:"
     editing_coin: "Editando Moeda"
     notice: "Moeda atualizada com sucesso!"
+    select: "Selecione..."
   options:
     option_one: "Moedas"
     option_two: "Tipos de Mineração"
