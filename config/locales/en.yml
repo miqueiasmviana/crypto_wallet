@@ -28,9 +28,21 @@
 #       enabled: "ON"
 
 en:
-  actual_locale: "English (International)"
+  current_locale: "English (International)"
+  messages:
+    welcome: "This is Crypto Wallet, an application for you to register and track your cryptocurrencies"
+    menu: "To get started, select an option below:"
+    editing_coin: "Editing coin"
+    notice: "Coin was successfully updated."
+  options:
+    option_one: "Coins"
+    option_two: "Mining Type"
   hello: "Hello world"
   links:
     show: "Show"
     edit: "Edit"
     delete: "Delete"
+    back: "Back"
+    show_coin: "Show this coin"
+    new_mining_type: "New Mining Type"
+    new_coin: "New Coin"
